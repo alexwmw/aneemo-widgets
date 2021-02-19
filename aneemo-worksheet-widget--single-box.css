@@ -1,0 +1,70 @@
+/* Mobile formatting */
+@media (max-width: 760px) {
+    .ws-container {
+      padding: 0 !important;
+      border: none !important;
+      border-radius: 0 !important;
+      background-color: transparent !important;
+    }
+    .ws-btn {
+      font-size: 9.5pt !important;
+      padding: 7px !important;
+    }
+  }
+  /* Worksheet Container */
+  .ws-container {
+    position: relative;
+    padding: 5%;
+    margin: 60px 0px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: solid 1px #d7dadb;
+  }
+  /* Worksheet Text Input Area */
+  .ws-container .ws-textarea {
+    width: 100%;
+    min-height: 300px;
+    outline: 1px solid grey;
+    border: none;
+    padding: 5px;
+    transition: outline-color 0.25s ease-in;
+  }
+  /* Worksheet Text Input Area */
+  .ws-container .ws-textarea:focus {
+    outline-color: #32bba6;
+  }
+  /* Worksheet Headings */
+  .ws-container .ws-heading {
+    font-size: 22pt;
+    padding: 0 0 10px 0;
+    font-weight: 400;
+  }
+  /* Worksheet Subheadings */
+  .ws-container .subheading {
+    font-weight: 300;
+  }
+  /* Worksheet Subheadings */
+  .ws-container .ws-subheading {
+    font-weight: 300;
+  }
+  /* Worksheet Buttons */
+  .ws-container .ws-btn-container {
+    direction: rtl;
+  }
+  /* Worksheet Buttons */
+  .ws-container .ws-btn-container .ws-btn {
+    background-color: #32bba6;
+    color: white;
+    padding: 10px;
+    margin: 20px 0 0 3%;
+    font-size: 1.1em;
+    border: none;
+  }
+  /* Worksheet Buttons */
+  .ws-container .ws-btn-container .ws-btn:hover {
+    background-color: #2b3632;
+  }
+  /* Worksheet Buttons */
+  .ws-container .ws-btn-container .ws-btn:focus {
+    outline: none;
+  }
